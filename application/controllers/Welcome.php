@@ -25,7 +25,8 @@ class Welcome extends CI_Controller {
 
 	public function about()
 	{
-		$this->load->view('about/about');
+		echo "I'm on About Page";
+		die();
 	}
 
 }
